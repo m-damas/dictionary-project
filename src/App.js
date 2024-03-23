@@ -13,8 +13,23 @@ function App() {
         <Dictionary />
         <footer className="App-footer">
           <small>
-            Coded by Melissa Damas and is open sourced on Github and hosted on
-            Netlify
+            Coded by <em className="coder">Melissa Damas</em> and is open
+            sourced on{" "}
+            <a
+              href="https://github.com/m-damas/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>{" "}
+            and hosted on{" "}
+            <a
+              href="https://md-dictionary-project.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Netlify
+            </a>
           </small>
         </footer>
       </div>
