@@ -44,14 +44,21 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <header>
-          <h1>Dictionary</h1>
+          <h1 style={{ marginBottom: "40px" }}>Dictionary</h1>
           <section>
             <h2>Type a word to find it's definition 📖</h2>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className="search-form">
               <input
                 type="search"
                 onChange={handleKeywordChange}
                 defaultValue={props.defaultKeyword}
+                style={{ marginRight: "20px" }}
+              />
+              <input
+                type="submit"
+                value="Search"
+                className="submit-search"
+                style={{ padding: "6px 6px", fontSize: "14px" }}
               />
             </form>
           </section>
