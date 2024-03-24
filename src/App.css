@@ -1,22 +1,24 @@
 body {
-  background: #f0ece2;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("./logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  max-width: 100%;
+  padding: 0;
 }
 .App {
-  max-width: 960px;
+  max-width: 980px;
   margin: 0 auto;
 }
 .App-header {
   margin: 30px 0;
 }
-.App-logo {
-  max-width: 500px;
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px;
-}
 .App-footer {
   text-align: center;
   margin: 30px 0;
+  color: white;
 }
 .coder {
   color: #fc5886;
